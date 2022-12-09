@@ -21,7 +21,7 @@ export class UserService {
     return User.create({
       age: params.age,
       location: params.location,
-      name: 'Zach Swanson',
+      name: params.name,
     });
   }
 }
