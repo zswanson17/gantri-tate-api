@@ -8,6 +8,7 @@
 4. Create .env file with variables pointing to Postgres db (refer to .env.example)
 5. Run `npm run setupDb` to populate Postgres database. The process will exit when complete (30-60 seconds)
 6. Run `npm run dev` to run the API in dev mode
+   - Should see log `gantri-tate-api running at: http://localhost:1717`
 
 # Routes
 
