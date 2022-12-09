@@ -35,13 +35,6 @@ export class CommentService {
       }
     }
 
-    console.log('creating comment...', {
-      artId: params.artId,
-      userId: params.userId || null,
-      name: params.name,
-      content: params.content,
-    });
-
     return Comment.create({
       artId: params.artId,
       userId: params.userId || null,
